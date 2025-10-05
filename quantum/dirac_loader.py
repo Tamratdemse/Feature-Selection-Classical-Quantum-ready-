@@ -1,5 +1,5 @@
 import qci_client as qc
-from quantum.multi_body_data import poly_coefficients, poly_indices
+from multi_body_data import poly_coefficients, poly_indices
 import numpy as np
 
 # Initialize client and process the job

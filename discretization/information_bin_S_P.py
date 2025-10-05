@@ -40,6 +40,7 @@ for i in range(n_features):
 
     info_loss[i] = H_cond
 
-# --- Print results ---
-for h in info_loss:
-    print(f": information loss H(X|Xd) = {h:.4f} bits")
+# --- Print average information loss across all features ---
+average_info_loss = info_loss.mean()
+print(f"Average information loss H(X|Xd) = {average_info_loss:.4f} bits")
+
